@@ -1,0 +1,483 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+@media only screen and (max-width: 736px), handheld and (orientation: landscape){
+
+    html {
+      font-size: 100%;
+    }
+    body {
+  font-size: 100%;
+  background-image: url(../1mystile1/images/paabackground.jpg);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+   .homepage-banner .description {
+    /*font-size: 1.5em;*/
+    position: absolute;
+    top: 40%;
+     right: 20%;
+    color: #403f3c;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    -webkit-border-radius: 0.236em;
+    border-radius: 0.236em;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    }
+    
+
+ #header #logo {
+  float: left;
+  margin-bottom: 1.618em;
+  margin-left: 0%;
+  }
+
+   ul.nav ul {
+  width: 30%;
+  visibility: visible;
+  display: inline;
+  /*position: absolute;*/
+ /* top: 100%;*/
+  left: 11em;
+  /*z-index: 100000000;*/
+  margin: 0;
+  background: rgba(105, 105, 105, .7);
+
+
+  }
+  #header #navigation ul.nav > li a {
+    border: 1px solid #0505050;
+    background: rgba(105, 105, 105, .7);;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    width: 30%;
+    -webkit-border-radius: 0.236em;
+    border-radius: 0.236em;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+
+   ul.products li.product img {
+    width: 70%;
+     height: auto;
+     padding: .53em;
+     display: block;
+     -webkit-box-sizing: border-box;
+     /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;
+     /* Firefox, other Gecko */
+     box-sizing: border-box;
+     /* Opera/IE 8+ */
+     border: none;
+      background: rgba(105, 105, 105, 1);
+      margin: 70px auto 1em;
+     }
+  ul.products li.product .price {
+     display: block;
+     /*color: #ffffff;*/ /*money colour*/
+     color: #000000;
+      margin-bottom: 1em;
+      }
+
+  h1.products,
+  h2.products,
+  h3.products,
+  h4.products,
+  h5.products,
+  h6.products{
+  font-family: "Bree Serif", sans-serif;
+  color: #363230;
+  /*color: #ffffff;*/
+  margin: 0 0 .618em;
+  font-weight: normal;
+}
+    #top {
+    background: rgba(105, 105, 105, .7);
+    margin: 0 -3.631em;
+    padding: 0 3.631em;
+    margin-top: 0;
+
+  }
+  /* The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements.
+   j.mp/bestclearfix */
+    .fix:before,
+    .fix:after,
+    .col-full:before,
+    .col-full:after {
+      content: "\0020";
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+    .fix:after,
+    .col-full:after {
+      clear: both;
+    }
+}
+/* 
+mobile styles
+----------------
+Add styles beneath this line that you want to be applied tablets
+ */
+/*@media only screen and (max-width: 769px), handheld and (orientation: landscape){
+*/    /* For tablets: */
+@media only screen and (min-width: 737px),  and (max-width: 769px) {
+
+
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  font-family: "Bree Serif", sans-serif;
+  /*color: #363230;*/
+  color: #000000;
+  margin: 0 0 .618em;
+  font-weight: normal;
+}
+h3 {
+  font-size: 1em;
+  }
+  .homepage-banner img {
+    width: auto;
+    height: auto;
+    margin-top: -300px;
+    margin-right: 10%;
+    position: relative;
+    background-size: cover;
+  }
+  body {
+  font-size: 100%;
+  background-image: url(../1mystile1/images/paabackground.jpg);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .homepage-banner .description {
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+     right: 30%;
+    color: #403f3c;
+    /*font-size: 2.4em;*/
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    -webkit-border-radius: 0.236em;
+    border-radius: 0.236em;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    }
+
+  
+  /*img {
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+  margin-left: 10%;
+  }*/
+
+  .payimg{
+    background-image: url(../1mystile1/images/paypalsmallscreen.png);
+    width: 112px;
+    height: 51px;
+  }
+
+  .col-full {
+  zoom: 1;
+  width: 100%;
+  }
+  .col-left {
+    /*float: right;*/
+    /*margin-top: -150px;*/
+    background:rgba(105, 105, 105, .5);
+    background-image: url(../1mystile1/images/sniper.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 414px 133px;
+    overflow: visible;
+    }
+  #header #navigation {
+    float: left;
+    clear: none;
+    border: 0;
+    /*background: 0;*/
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: auto;
+    z-index: 700;
+  }
+
+ ul.nav li {
+    position: relative;
+  /*float: left; */
+    zoom: 1;
+    list-style: none;
+  }
+
+  ul.nav li a {
+  padding: .5em 1em;
+  display: block;
+  }
+  #navigation {
+  clear: both;
+  margin-bottom: 2.618em;
+  /*display: inline-block;*/
+  }
+  #navigation ul {
+  list-style-type: none;
+  }
+  #navigation {
+  padding-top: 10%;
+  position: relative;
+  border: 1px solid #ddd7d5;
+  -webkit-border-radius: 0.327em;
+  border-radius: 0.327em;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+/*  background-color: rgba(105, 105, 105, .7);
+*/  }
+  ul.nav ul {
+  width: 100%;
+  visibility: hidden;
+  display: none;
+  position: absolute;
+ /* top: 100%;*/
+  left: 11em;
+  /*z-index: 100000000;*/
+  margin: 0;
+  background: rgba(105, 105, 105, .7);
+
+
+  }
+  #header #navigation ul.nav > li a {
+    border: 1px solid #0505050;
+    background: rgba(105, 105, 105, .7);;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    -webkit-border-radius: 0.236em;
+    border-radius: 0.236em;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+
+  ul.products li.product img {
+  width: 50%;
+  height: auto;
+  padding: .53em;
+  display: block;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  border: none;
+  background: rgba(105, 105, 105, 1);
+  margin: 70px auto 1em;
+  }
+  ul.products li.product .price {
+  display: block;
+  /*color: #ffffff;*/ /*money colour*/
+  color: #000000;
+  margin-bottom: 1em;
+  }
+    #top {
+    background: rgba(105, 105, 105, .7);
+    margin: 0 -3.631em;
+    padding: 0 3.631em;
+    margin-top: 0;
+
+  }
+}
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+
+@media only screen  and (min-width: 770px), and (min-width: 1024px) {
+  /* Desktop styles go here */
+  html {
+  background-image: none;
+  margin: 0;
+}
+body {
+  font-size: 1.4em;
+  line-height: 1.618;
+  /*color: #6c6360;*/
+  /*color: #ffffff;*/
+  font-family: "Open Sans", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.618em;
+  /*background: #fcfcfc;*/
+  background-image: url(../1mystile1/images/paabackground.jpg);
+  height: 1300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 2.2 Navigation */
+ #header #navigation {
+    float: left;
+    clear: none;
+    border: 0;
+    background: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: auto;
+    z-index: 700;
+  }
+
+ ul.nav li {
+    position: relative;
+/*    float: left; */
+    zoom: 1;
+    list-style: none;
+  }
+
+ul.nav li a {
+  padding: .5em 1em;
+  display: block;
+}
+#navigation {
+  clear: both;
+  margin-bottom: 2.618em;
+  /*display: inline-block;*/
+}
+#navigation ul {
+  list-style-type: none;
+}
+/* Optional Styling */
+#navigation {
+  padding-top: 10%;
+  position: fixed;
+  border: 1px solid #ddd7d5;
+  -webkit-border-radius: 0.327em;
+  border-radius: 0.327em;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: rgba(105, 105, 105, .7);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f5f5f5));
+  /* Saf4+, Chrome */
+ background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+ /* Chrome 10+, Saf5.1+, iOS 5+ */
+/  background-image: -moz-linear-gradient(top, rgba(105, 105, 105, 1), #f5f5f5);
+  /* FF3.6+ */
+/ background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+ /* IE10 */
+ background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+  /* Opera 11.10+ */
+ background-image: linear-gradient(to bottom, #ffffff, #f5f5f5); 
+ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03);
+/ -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03);
+}
+ul.nav ul {
+    width: 250px;
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 11em;
+    z-index: 100000000;
+    margin: 0;
+    background: rgba(105, 105, 105, .7);
+
+
+  }
+
+   .col-left {
+    float: right;
+    /*margin-top: -150px;*/
+    background:rgba(105, 105, 105, .5);
+    background-image: url(../1mystile1/images/sniper.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 600px 192px;
+    overflow: visible;
+
+    }
+
+  .payimg {
+    background-image: url(../1mystile1/images/payimg.png);
+   /* margin-top: 100%;*/
+    width: 219px;
+    height: 97px;
+    }
+ .homepage-banner img {
+    margin-bottom: 0;
+    /*width: 100%;*/
+    margin-top: -150px;
+    margin-right: 10%;
+    position: relative;
+    background-size: cover;
+    }
+
+  .homepage-banner .description {
+    position: absolute;
+    /*top: 1%;*/
+    /*left: 25%;*/
+    right: 20%;
+    color: #403f3c;
+    font-size: 2.4em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    -webkit-border-radius: 0.236em;
+    border-radius: 0.236em;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    }
+  .sniper{
+    background-image: url(../1mystile1/images/sniper.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ul.products li.product img {
+  width: 100%;
+  height: auto;
+  padding: .53em;
+  padding-left: .53em;
+  display: block;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  border: 1px solid #e8e4e3;
+  /*background: #fff;*/
+  margin: 90px auto 1em;
+  }
+}
